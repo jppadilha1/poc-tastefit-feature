@@ -1,0 +1,6 @@
+POST  http://localhost:3000/api/getrecipe
+Content-Type: application/json
+
+{
+  "prompt": "Faça uma receita de dia do lixo de até 3000 calorias?"
+}
