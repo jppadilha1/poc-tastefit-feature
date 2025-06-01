@@ -6,7 +6,7 @@ export default async function generateRecipe(req, res) {
       {
         parts: [
           {
-            text: prompt,
+            text: `Você é uma Inteligência Artificial implantada em um aplicativo de receitas fitness, Porém nesse contexto você irá encontrar para o usuário uma receita do dia do lixo, mais conhecido como dia livre da dieta, responda com somente uma receita no prompt a seguir.${prompt}`,
           },
         ],
       },
